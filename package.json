@@ -10,16 +10,25 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "craco": "^0.0.3",
+    "mtof": "^1.0.2",
+    "overdrive": "web-audio-components/overdrive",
+    "rc-knob": "https://github.com/szilard-dobai/rc-knob",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-envelope-graph": "^0.1.4",
     "react-scripts": "4.0.3",
+    "react-switch": "^6.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "webaudio-oscilloscope": "^3.2.1",
+    "webmidi": "^2.5.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^7"
   }
 }
